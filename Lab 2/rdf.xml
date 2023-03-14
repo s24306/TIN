@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+        xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:foaf = "http://xmlns.com/foaf/0.1/"
+        xmlns:bio = "http://purl.org/vocab/bio/0.1/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+    <foaf:Person rdf:ID="dhoffmeister">
+        <foaf:name>Hoffmeister Dawid</foaf:name>
+        <foaf:gender>Male</foaf:gender>
+        <foaf:givenname>Dawid</foaf:givenname>
+        <foaf:family_name>Hoffmeister</foaf:family_name>
+        <bio:Graduation>
+            <foaf:Organization rdf:ID="pja">
+                <bio:date>2025-02-14</bio:date>
+                <foaf:name>Polsko-Japońska Akademia Technik Komputerowych</foaf:name>
+                <foaf:schoolHomepage rdf:resource="https://gdansk.pja.edu.pl/pl/"/>
+            </foaf:Organization>
+        </bio:Graduation>
+        <bio:position>student</bio:position>
+    </foaf:Person>
+
+    <rdf:Description>
+        <dc:title>Internet Ethics</dc:title>
+        <dc:creator>Duncan Langford</dc:creator>
+        <dc:format>Book</dc:format>
+        <dc:identifier>ISBN 0333776267</dc:identifier>
+    </rdf:Description>
+
+</rdf:RDF>
